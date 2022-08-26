@@ -1,0 +1,15 @@
+* About
+  emacs extension
+
+  generate google style docstring for python
+
+* Usage
+  #+BEGIN_SRC emacs-lisp
+    (use-package python-google-docstring
+      :commands python-google-docstring
+      :config
+      (setq python-google-docstring-return "0"
+            python-google-docstring-default "1"
+            python-google-docstring-type "0"
+            ))
+  #+END_SRC
